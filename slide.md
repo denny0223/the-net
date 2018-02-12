@@ -36,7 +36,7 @@ output: index.html
 
 ### Kenny Huang, Ph.D. 黃勝雄 博士
 
-* <a href="https://www.tahr.org.tw/files/infra.v3.pdf" target="_blank">網路之根 – 基礎建設與標準化</a>
+* <a href="https://www.slideshare.net/tahr1984/kenny-huang-phd" target="_blank">網路之根 – 基礎建設與標準化</a>
 
 
 * <a href="https://www.youtube.com/watch?v=aa_DdMpNI5Q" target="_blank">SITCON 2017 - Cybersecurity and Internet Governance 網路安全與網路治理</a>
