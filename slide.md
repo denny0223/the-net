@@ -43,30 +43,69 @@ output: index.html
 
 --
 
+# [History of the Internet](https://zh.wikipedia.org/wiki/互联网历史)
+
+--
+
 # <a href="https://zh.wikipedia.org/wiki/OSI%E6%A8%A1%E5%9E%8B" target="_blank">OSI</a>
 ## <a href="https://www.explainxkcd.com/wiki/index.php/1417:_Seven" target="_blank">7?</a>
 
 --
 
+# [IETF](https://zh.wikipedia.org/zh-tw/互联网工程任务组)/[RFC](https://zh.wikipedia.org/wiki/RFC)
+## [RFC 2324](https://tools.ietf.org/html/rfc2324)
+## [RFC 2468](https://tools.ietf.org/html/rfc2468)
+
+--
+
+# Network Interface
+## [Predictable Network Interface Names](https://www.freedesktop.org/wiki/Software/systemd/PredictableNetworkInterfaceNames/)
+
+--
+
+# Ask the man
+## `man [command]`
+
+--
+
 # IP
 ## Public IP / Private IP
+## `ip a / ifconfig`
+
+--
+
+# Port
 
 --
 
 # Gateway / Netmask
+## `route / traceroute / mtr`
 
 --
 
 # <a href="https://zh.wikipedia.org/wiki/%E4%BC%A0%E8%BE%93%E6%8E%A7%E5%88%B6%E5%8D%8F%E8%AE%AE" target="_blank">TCP</a> / <a href="https://zh.wikipedia.org/wiki/%E7%94%A8%E6%88%B7%E6%95%B0%E6%8D%AE%E6%8A%A5%E5%8D%8F%E8%AE%AE" target="_blank">UDP</a>
+## `nc -lvp [port] / nc -v [hostname/ip] [port]`
+
+--
+
+# Three-Way Handshake
 
 --
 
 # <a href="https://zh.wikipedia.org/wiki/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE" target="_blank">DNS</a>
+## `dig / nslookup`
 
 --
 
 # HTTP
-## request method / status code / headers
+## request method / [status code](https://http.cat) / headers
+## `nc -lvp 8080 / curl -v localhost:8080`
+## `python3 -m http.server`
+## `GET / HTTP/1.1`
+
+--
+
+# HTTPS
 
 --
 
@@ -74,7 +113,7 @@ output: index.html
 
 --
 
-# How Browsers Work?
+# [How Browsers Work?](https://github.com/alex/what-happens-when)
 
 --
 
@@ -84,6 +123,8 @@ output: index.html
 --
 
 # JSON
+## [Example](https://json.org/example.html)
+## `jq` / [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh) / [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
 
 --
 
