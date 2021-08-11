@@ -401,9 +401,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 </section>
   </div>
   <div class="slide hidden" id="slide-3">
-    <section class="slide-content"><p><a href="https://github.com/denny0223/shell-utils-for-win" target="_blank">
-    <h1 style="font-size: 80px">Shell utils for Win</h1>
-</a></p>
+    <section class="slide-content"><h1 id="wsl">WSL</h1>
 </section>
   </div>
   <div class="slide hidden" id="slide-4">
@@ -417,7 +415,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 </section>
   </div>
   <div class="slide hidden" id="slide-5">
-    <section class="slide-content"><h1 id="history-of-the-internet"><a href="https://zh.wikipedia.org/wiki/互联网历史">History of the Internet</a></h1>
+    <section class="slide-content"><h1 id="history-of-the-internet"><a href="https://zh.wikipedia.org/wiki/%E7%B6%B2%E9%9A%9B%E7%B6%B2%E8%B7%AF%E6%AD%B7%E5%8F%B2">History of the Internet</a></h1>
 </section>
   </div>
   <div class="slide hidden" id="slide-6">
@@ -426,7 +424,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 </section>
   </div>
   <div class="slide hidden" id="slide-7">
-    <section class="slide-content"><h1 id="ietf-rfc"><a href="https://zh.wikipedia.org/zh-tw/互联网工程任务组">IETF</a>/<a href="https://zh.wikipedia.org/wiki/RFC">RFC</a></h1>
+    <section class="slide-content"><h1 id="ietf-rfc"><a href="https://zh.wikipedia.org/zh-tw/%E7%B6%B2%E9%9A%9B%E7%B6%B2%E8%B7%AF%E5%B7%A5%E7%A8%8B%E4%BB%BB%E5%8B%99%E7%B5%84">IETF</a>/<a href="https://zh.wikipedia.org/wiki/RFC">RFC</a></h1>
 <h2 id="rfc-2324"><a href="https://tools.ietf.org/html/rfc2324">RFC 2324</a></h2>
 <h2 id="rfc-2468"><a href="https://tools.ietf.org/html/rfc2468">RFC 2468</a></h2>
 </section>
@@ -443,8 +441,8 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
   </div>
   <div class="slide hidden" id="slide-10">
     <section class="slide-content"><h1 id="ip">IP</h1>
-<h2 id="public-ip-private-ip">Public IP / Private IP</h2>
-<h2 id="ip-a-ifconfig"><code>ip a / ifconfig</code></h2>
+<h2 id="public-ip-private-ip"><a href="https://datatracker.ietf.org/doc/html/rfc3330#section-3">Public IP / Private IP</a></h2>
+<h2 id="ip-a"><code>ip a</code></h2>
 </section>
   </div>
   <div class="slide hidden" id="slide-11">
@@ -452,68 +450,110 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 </section>
   </div>
   <div class="slide hidden" id="slide-12">
-    <section class="slide-content"><h1 id="gateway-netmask">Gateway / Netmask</h1>
-<h2 id="route-traceroute-mtr"><code>route / traceroute / mtr</code></h2>
+    <section class="slide-content"><h1 id="arp">ARP</h1>
+<h2 id="arp-ip-neighbour"><code>arp / ip neighbour</code></h2>
 </section>
   </div>
   <div class="slide hidden" id="slide-13">
-    <section class="slide-content"><h1 id="-a-href-https-zh-wikipedia-org-wiki-e4-bc-a0-e8-be-93-e6-8e-a7-e5-88-b6-e5-8d-8f-e8-ae-ae-target-_blank-tcp-a-a-href-https-zh-wikipedia-org-wiki-e7-94-a8-e6-88-b7-e6-95-b0-e6-8d-ae-e6-8a-a5-e5-8d-8f-e8-ae-ae-target-_blank-udp-a-"><a href="https://zh.wikipedia.org/wiki/%E4%BC%A0%E8%BE%93%E6%8E%A7%E5%88%B6%E5%8D%8F%E8%AE%AE" target="_blank">TCP</a> / <a href="https://zh.wikipedia.org/wiki/%E7%94%A8%E6%88%B7%E6%95%B0%E6%8D%AE%E6%8A%A5%E5%8D%8F%E8%AE%AE" target="_blank">UDP</a></h1>
-<h2 id="nc-lvp-port-nc-v-hostname-ip-port-"><code>nc -lvp [port] / nc -v [hostname/ip] [port]</code></h2>
+    <section class="slide-content"><h1 id="gateway-netmask">Gateway / Netmask</h1>
+<h2 id="ip-route-route-traceroute-mtr"><code>ip route / route / traceroute / mtr</code></h2>
 </section>
   </div>
   <div class="slide hidden" id="slide-14">
-    <section class="slide-content"><h1 id="three-way-handshake">Three-Way Handshake</h1>
+    <section class="slide-content"><h1 id="-a-href-https-zh-wikipedia-org-wiki-e4-bc-a0-e8-be-93-e6-8e-a7-e5-88-b6-e5-8d-8f-e8-ae-ae-target-_blank-tcp-a-a-href-https-zh-wikipedia-org-wiki-e7-94-a8-e6-88-b7-e6-95-b0-e6-8d-ae-e6-8a-a5-e5-8d-8f-e8-ae-ae-target-_blank-udp-a-"><a href="https://zh.wikipedia.org/wiki/%E4%BC%A0%E8%BE%93%E6%8E%A7%E5%88%B6%E5%8D%8F%E8%AE%AE" target="_blank">TCP</a> / <a href="https://zh.wikipedia.org/wiki/%E7%94%A8%E6%88%B7%E6%95%B0%E6%8D%AE%E6%8A%A5%E5%8D%8F%E8%AE%AE" target="_blank">UDP</a></h1>
+<h2 id="nc-lvp-port-nc-v-hostname-ip-port-"><code>nc -lvp [port] / nc -v [hostname/ip] [port]</code></h2>
+<h2 id="nc-lvup-port-nc-vu-hostname-ip-port-"><code>nc -lvup [port] / nc -vu [hostname/ip] [port]</code></h2>
 </section>
   </div>
   <div class="slide hidden" id="slide-15">
+    <section class="slide-content"><h1 id="three-way-handshake">Three-Way Handshake</h1>
+<h2 id="tcpdump-x-host-ip-"><code>tcpdump -X host [ip]</code></h2>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-16">
     <section class="slide-content"><h1 id="-a-href-https-zh-wikipedia-org-wiki-e8-b6-85-e6-96-87-e6-9c-ac-e4-bc-a0-e8-be-93-e5-8d-8f-e8-ae-ae-target-_blank-dns-a-"><a href="https://zh.wikipedia.org/wiki/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE" target="_blank">DNS</a></h1>
 <h2 id="dig-nslookup"><code>dig / nslookup</code></h2>
 </section>
   </div>
-  <div class="slide hidden" id="slide-16">
-    <section class="slide-content"><h1 id="http">HTTP</h1>
-<h2 id="request-method-status-code-headers">request method / <a href="https://http.cat">status code</a> / headers</h2>
-<h2 id="nc-lvp-8080-curl-v-localhost-8080"><code>nc -lvp 8080 / curl -v localhost:8080</code></h2>
-<h2 id="python3-m-http-server"><code>python3 -m http.server</code></h2>
-<h2 id="get-http-1-1"><code>GET / HTTP/1.1</code></h2>
-</section>
-  </div>
   <div class="slide hidden" id="slide-17">
-    <section class="slide-content"><h1 id="https">HTTPS</h1>
+    <section class="slide-content"><h1 id="http">HTTP</h1>
+<h2 id="request-method-status-code-headers"><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods">request method</a> / <a href="https://http.cat">status code</a> / <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers">headers</a></h2>
 </section>
   </div>
   <div class="slide hidden" id="slide-18">
-    <section class="slide-content"><h1 id="cookie-session">Cookie / Session</h1>
+    <section class="slide-content"><h3 id="response-a-web-page">Response a web page</h3>
+<h4 id="server">Server</h4>
+<p><code>nc -lvp 8000</code></p>
+<pre><code>HTTP/1.1 200 OK[Enter]
+[Enter]
+Hello
+^C
+</code></pre><h4 id="clint">Clint</h4>
+<ul>
+<li>Browser</li>
+<li><code>curl -v localhost:8000</code></li>
+</ul>
 </section>
   </div>
   <div class="slide hidden" id="slide-19">
-    <section class="slide-content"><h1 id="how-browsers-work-"><a href="https://github.com/alex/what-happens-when">How Browsers Work?</a></h1>
+    <section class="slide-content"><h3 id="python-3-http-server">Python 3 HTTP Server</h3>
+<h4 id="start-server">Start Server</h4>
+<p><code>python3 -m http.server</code></p>
+<h4 id="request-with">Request with</h4>
+<ul>
+<li><code>nc -v 0 8000</code><ul>
+<li><code>GET / HTTP/1.1</code></li>
+</ul>
+</li>
+<li><code>curl -v localhost:8000</code></li>
+<li>Browser</li>
+</ul>
 </section>
   </div>
   <div class="slide hidden" id="slide-20">
-    <section class="slide-content"><h1 id="api">API</h1>
-<h2 id="application-programming-interface">Application Programming Interface</h2>
+    <section class="slide-content"><h1 id="https">HTTPS</h1>
 </section>
   </div>
   <div class="slide hidden" id="slide-21">
+    <section class="slide-content"><h1 id="cookie-session">Cookie / Session</h1>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-22">
+    <section class="slide-content"><h1 id="how-browsers-work-"><a href="https://github.com/alex/what-happens-when">How Browsers Work?</a></h1>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-23">
+    <section class="slide-content"><h1 id="api">API</h1>
+<h2 id="application-programming-interface">Application Programming Interface</h2>
+<h2 id="-"><a href="https://data.gov.tw/">政府資料開放平台</a> / <a href="https://data.taipei/">台北市資料大平台</a></h2>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-24">
     <section class="slide-content"><h1 id="json">JSON</h1>
 <h2 id="example"><a href="https://json.org/example.html">Example</a></h2>
 <h2 id="jq-json-viewer-jsonview"><code>jq</code> / <a href="https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh">JSON Viewer</a> / <a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc">JSONView</a></h2>
 </section>
   </div>
-  <div class="slide hidden" id="slide-22">
+  <div class="slide hidden" id="slide-25">
     <section class="slide-content"><h1 id="restful">RESTful</h1>
 </section>
   </div>
-  <div class="slide hidden" id="slide-23">
+  <div class="slide hidden" id="slide-26">
     <section class="slide-content"><h1 id="web-crawler-bot">Web crawler / bot</h1>
 </section>
   </div>
-  <div class="slide hidden" id="slide-24">
+  <div class="slide hidden" id="slide-27">
     <section class="slide-content"><h1 id="q-a">Q &amp; A</h1>
 </section>
   </div>
-  <div class="slide hidden" id="slide-25">
+  <div class="slide hidden" id="slide-28">
+    <section class="slide-content"><h3 id="-">延伸閱讀</h3>
+<ul>
+<li><a href="https://ithelp.ithome.com.tw/users/20129897/ironman/3431">從 0 開始的 Web Security</a></li>
+</ul>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-29">
     <section class="slide-content"><h1 style="font-size: 72px">
   Thanks for listening!
 </h1>

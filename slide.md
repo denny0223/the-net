@@ -28,9 +28,7 @@ output: index.html
 
 --
 
-<a href="https://github.com/denny0223/shell-utils-for-win" target="_blank">
-	<h1 style="font-size: 80px">Shell utils for Win</h1>
-</a>
+# WSL
 
 --
 
@@ -43,7 +41,7 @@ output: index.html
 
 --
 
-# [History of the Internet](https://zh.wikipedia.org/wiki/互联网历史)
+# [History of the Internet](https://zh.wikipedia.org/wiki/%E7%B6%B2%E9%9A%9B%E7%B6%B2%E8%B7%AF%E6%AD%B7%E5%8F%B2)
 
 --
 
@@ -52,7 +50,7 @@ output: index.html
 
 --
 
-# [IETF](https://zh.wikipedia.org/zh-tw/互联网工程任务组)/[RFC](https://zh.wikipedia.org/wiki/RFC)
+# [IETF](https://zh.wikipedia.org/zh-tw/%E7%B6%B2%E9%9A%9B%E7%B6%B2%E8%B7%AF%E5%B7%A5%E7%A8%8B%E4%BB%BB%E5%8B%99%E7%B5%84)/[RFC](https://zh.wikipedia.org/wiki/RFC)
 ## [RFC 2324](https://tools.ietf.org/html/rfc2324)
 ## [RFC 2468](https://tools.ietf.org/html/rfc2468)
 
@@ -69,8 +67,8 @@ output: index.html
 --
 
 # IP
-## Public IP / Private IP
-## `ip a / ifconfig`
+## [Public IP / Private IP](https://datatracker.ietf.org/doc/html/rfc3330#section-3)
+## `ip a`
 
 --
 
@@ -78,17 +76,24 @@ output: index.html
 
 --
 
+# ARP
+## `arp / ip neighbour`
+
+--
+
 # Gateway / Netmask
-## `route / traceroute / mtr`
+## `ip route / route / traceroute / mtr`
 
 --
 
 # <a href="https://zh.wikipedia.org/wiki/%E4%BC%A0%E8%BE%93%E6%8E%A7%E5%88%B6%E5%8D%8F%E8%AE%AE" target="_blank">TCP</a> / <a href="https://zh.wikipedia.org/wiki/%E7%94%A8%E6%88%B7%E6%95%B0%E6%8D%AE%E6%8A%A5%E5%8D%8F%E8%AE%AE" target="_blank">UDP</a>
 ## `nc -lvp [port] / nc -v [hostname/ip] [port]`
+## `nc -lvup [port] / nc -vu [hostname/ip] [port]`
 
 --
 
 # Three-Way Handshake
+## `tcpdump -X host [ip]`
 
 --
 
@@ -98,10 +103,36 @@ output: index.html
 --
 
 # HTTP
-## request method / [status code](https://http.cat) / headers
-## `nc -lvp 8080 / curl -v localhost:8080`
-## `python3 -m http.server`
-## `GET / HTTP/1.1`
+## [request method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) / [status code](https://http.cat) / [headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+
+--
+
+### Response a web page
+
+#### Server
+`nc -lvp 8000`
+```
+HTTP/1.1 200 OK[Enter]
+[Enter]
+Hello
+^C
+```
+#### Clint
+- Browser
+- `curl -v localhost:8000`
+
+--
+
+### Python 3 HTTP Server
+
+#### Start Server
+`python3 -m http.server`
+
+#### Request with
+- `nc -v 0 8000`
+	- `GET / HTTP/1.1`
+- `curl -v localhost:8000`
+- Browser
 
 --
 
@@ -119,6 +150,7 @@ output: index.html
 
 # API
 ## Application Programming Interface
+## [政府資料開放平台](https://data.gov.tw/) / [台北市資料大平台](https://data.taipei/)
 
 --
 
@@ -137,6 +169,12 @@ output: index.html
 --
 
 # Q & A
+
+--
+
+### 延伸閱讀
+
+- [從 0 開始的 Web Security](https://ithelp.ithome.com.tw/users/20129897/ironman/3431)
 
 --
 
