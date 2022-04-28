@@ -46,7 +46,7 @@ output: index.html
 --
 
 # <a href="https://zh.wikipedia.org/wiki/OSI%E6%A8%A1%E5%9E%8B" target="_blank">OSI</a>
-## <a href="https://www.explainxkcd.com/wiki/index.php/1417:_Seven" target="_blank">7?</a>
+## <a href="https://www.explainxkcd.com/wiki/index.php/1417:_Seven" target="_blank">7?</a> <a href="https://www.cs.purdue.edu/homes/comer/essay.network.layers.html" target="_blank">7?</a>
 
 --
 
