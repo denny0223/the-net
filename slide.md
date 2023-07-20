@@ -68,7 +68,7 @@ output: index.html
 
 # IP
 ## [Public IP / Private IP](https://datatracker.ietf.org/doc/html/rfc3330#section-3)
-## `ip a`
+## `ip addr / ip a`
 
 --
 
@@ -77,12 +77,12 @@ output: index.html
 --
 
 # ARP
-## `arp / ip neighbour`
+## `arp / ip neighbour / ip n`
 
 --
 
 # Gateway / Netmask
-## `ip route / route / traceroute / mtr`
+## `ip route / ip r / route / traceroute / mtr`
 
 --
 
@@ -93,12 +93,14 @@ output: index.html
 --
 
 # Three-Way Handshake
+## Wireshark
 ## `tcpdump -X host [ip]`
 
 --
 
 # <a href="https://zh.wikipedia.org/wiki/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE" target="_blank">DNS</a>
 ## `dig / nslookup`
+## whois
 
 --
 
