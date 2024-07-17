@@ -72,10 +72,6 @@ output: index.html
 
 --
 
-# Port
-
---
-
 # ARP
 ## `arp / ip neighbour / ip n`
 
@@ -83,6 +79,10 @@ output: index.html
 
 # Gateway / Netmask
 ## `ip route / ip r / route / traceroute / mtr`
+
+--
+
+# Port
 
 --
 
