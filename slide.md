@@ -19,41 +19,31 @@ paginate: true
 
 <!-- _paginate: false -->
 
-<h1 style="font-size: 72px">
-  網路概論：<br />
-  從底層到應用的觀念與實作<br />
-</h1>
+# 網路概論：<br />從底層到應用的觀念與實作<br />
 <br />
 
 ## Denny Huang
 
 ---
 
-### Who am I ?
+# Denny Huang
 
-<br />
-<h2 style="font-size: 60px">
-  <b>Denny Huang</b>
-</h2>
-
-* SITCON 2013, 2014 總召
-
-* Rayark Inc.
-
-* <a href="https://denny.one/" target="_blank">About me</a>
+- <a href="https://sitcon.org/" target="_blank">SITCON 學生計算機年會</a> 共同發起人
+- 雷亞遊戲 Rayark Inc.
+- <a href="https://denny.one/" target="_blank">About me</a>
 
 ---
 
-# WSL
+# 課程內容以 Linux 發行版本進行
+## Windows 使用者請使用 WSL
 
 ---
 
-### Kenny Huang, Ph.D. 黃勝雄 博士
+# 已有基礎者，推薦閱讀
+## Kenny Huang, Ph.D. 黃勝雄 博士
 
-* <a href="https://www.slideshare.net/tahr1984/kenny-huang-phd" target="_blank">網路之根 – 基礎建設與標準化</a>
-
-
-* <a href="https://www.youtube.com/watch?v=aa_DdMpNI5Q" target="_blank">SITCON 2017 - Cybersecurity and Internet Governance 網路安全與網路治理</a>
+- <a href="https://www.slideshare.net/tahr1984/kenny-huang-phd" target="_blank">網路之根 – 基礎建設與標準化</a>
+- <a href="https://www.youtube.com/watch?v=aa_DdMpNI5Q" target="_blank">SITCON 2017 - Cybersecurity and Internet Governance 網路安全與網路治理</a>
 
 ---
 
@@ -122,12 +112,13 @@ paginate: true
 
 # HTTP
 ## [request method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) / [status code](https://http.cat) / [headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+[IETF HTTP-WG Mailing List 〈Re: Referer: (sic)〉](https://lists.w3.org/Archives/Public/ietf-http-wg/1995JanMar/0109.html)
 
 ---
 
-### Response a web page
+# Response a web page
 
-#### Server
+## Server
 `nc -lvp 8000`
 ```
 HTTP/1.1 200 OK[Enter]
@@ -135,18 +126,18 @@ HTTP/1.1 200 OK[Enter]
 Hello
 ^C
 ```
-#### Clint
+## Clint
 - Browser
 - `curl -v localhost:8000`
 
 ---
 
-### Python 3 HTTP Server
+# Python 3 HTTP Server
 
-#### Start Server
+## Start Server
 `python3 -m http.server`
 
-#### Request with
+## Request with
 - `nc -v 0 8000`
 	- `GET / HTTP/1.1`
 - `curl -v localhost:8000`
@@ -174,7 +165,7 @@ Hello
 
 # JSON
 ## [Example](https://json.org/example.html)
-## `jq` / [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh) / [JSONVue](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
+## `jq` / [JSONVue](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
 
 ---
 
@@ -190,9 +181,11 @@ Hello
 
 ---
 
-### 延伸閱讀
+# 延伸閱讀
 
 - [從 0 開始的 Web Security](https://ithelp.ithome.com.tw/users/20129897/ironman/3431)
+- [roadmap.sh](https://roadmap.sh/)
+- [2021 Web Developer Roadmap](https://github.com/goodjack/developer-roadmap-chinese)
 
 ---
 
